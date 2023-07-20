@@ -6,7 +6,7 @@ from sklearn.ensemble import BaggingRegressor
 
 # Train set:
 # Load data from CSV file
-train_url = "https://raw.githubusercontent.com/maryammomtahen/TrainSet/main/Training_Patient31.csv"
+train_url = "https://raw.githubusercontent.com/smomtahe/ensemble-learning-absorption/main/phantom.csv"
 train_data = pd.read_csv(train_url)
 
 # Test set:
